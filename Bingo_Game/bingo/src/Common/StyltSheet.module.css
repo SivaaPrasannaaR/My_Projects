@@ -1,0 +1,107 @@
+/* The things used in this css are group and separated by line*/
+
+.fullBoard {
+  /* position: fixed; */
+  margin: 0px auto;
+  box-sizing: border-box;
+
+  align-items: center;
+  height: 90vh;
+  width: 90vw;
+
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+  /* clear: both; */
+}
+
+/* _________________________________________________________________________ */
+/* The below section is for title and header div */
+
+.titleDiv {
+  background-color: goldenrod;
+
+  border-bottom: 5px solid #282c34;
+  box-sizing: border-box;
+  margin: 0 auto; /* when margin is set in above div we need to remove now*/
+
+  width: 100%;
+  height: 20%;
+}
+
+.titleDiv h1 {
+  box-sizing: border-box;
+  padding: 0.5%;
+
+  align-items: center;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+/* _________________________________________________________________________ */
+/* Above section is used for header  and below section is for container */
+
+.container {
+  padding: 1%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+
+  height: 80%;
+  background-color: gray;
+}
+
+/* _____________________________________________________________________________ */
+/* This is for side bar content which displays the bingo score */
+
+.sideBars {
+  position: relative;
+  min-height: 68vh;
+
+  padding: 1%;
+  box-sizing: border-box;
+
+  width: 30%;
+  background-color: yellow;
+}
+
+.scoreDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  max-height: 50%;
+  overflow-y: auto;
+
+  padding: 5%;
+  margin: 5%;
+  box-sizing: border-box;
+
+  background: green;
+}
+
+.computerSelectionDiv {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  max-height: 40%;
+  overflow-y: auto;
+
+  padding: 5%;
+  margin: 5%;
+  box-sizing: border-box;
+
+  background-color: pink;
+}
+
+/* _____________________________________________________________________________ */
+/* This is for main area content which displays the bingo board */
+
+.mainArea {
+  box-sizing: border-box;
+  margin-left: 1%;
+  padding: 1%;
+  width: 70%;
+  background-color: blueviolet;
+}

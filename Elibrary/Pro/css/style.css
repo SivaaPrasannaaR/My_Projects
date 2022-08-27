@@ -1,0 +1,112 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+body{
+	font:90% calibri,sans-serif;
+	text-align:center;
+}
+div#header{
+	background-color:#ffe39f;
+}
+div#header h1{
+	height:80px;
+	line-height:80px;
+	margin:0;
+	padding-left:20px;
+}
+div#container{
+	height:auto;
+	width:800px;
+	margin:0 auto;
+}
+div#wrapper{
+	float:right;
+	width:600px;
+}
+div#wrapper p{
+	line-height:1.5;
+	text-align:justify;
+}
+div#navi{
+	float:left;
+	height:500px;
+	width:200px;
+	background-color:#ffe0bd;
+	text-align:left;
+
+}
+div#navi ul{
+	margin-left:10px;
+	list-style-type:square;
+}
+div#navi li{
+	margin-bottom:8px;
+}
+div#footer {
+	clear:both;
+	width:100%;
+	background:#BFBD93;
+}
+div#footer p{
+	margin:0;
+	padding:10px 15px;
+}
+a{
+	padding:10px;
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:green;
+}
+p{
+	margin:20px 10px 10px;
+}
+#center{
+	text-align:left;
+	height:auto;
+	width:300px;
+	margin-left:50px;
+}
+
+label,input,button,select,textarea{
+	display:block;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+input,select,textarea{
+	width:100%;
+}
+.error{
+	color:red;
+	text-align:center;
+}
+.success{
+	color:green;
+	text-align:center;
+}
+
+.record{
+	list-style-type:square;
+	}
+.record li{
+		margin-top:15px;
+}
+
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+table td,table th{
+	border:2px solid #ddd;
+	padding:5px;
+}
+strong{
+	color:red;
+	padding:5px;
+}
+i{
+	color: blue;
+	padding:5px;
+}
